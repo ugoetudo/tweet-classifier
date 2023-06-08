@@ -1,0 +1,93 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+.main-post {
+  padding: 10px;
+  border-style:solid;
+  border-radius:20px;
+  border-width:1px;
+  width:500px;
+  
+}
+.grid-container{
+  margin-left:20px;
+  margin-top:10px;
+  display:grid;
+  grid-template-columns:20px 500px;
+  grid-gap: 10px;
+}
+.response-arrow {
+  width: 20px;
+  height: 20px;
+  border-left:solid  #686868;
+  border-bottom:solid  #686868;
+  border-bottom-left-radius: 5px;
+  margin-bottom:0;
+}
+.sub-post {
+  padding: 10px;
+  border-style:solid;
+  border-radius:20px;
+  border-width:1px;
+  width:500px;
+  margin-left:23px;
+}
+.square-btn {
+  position: relative;
+  margin-right: 0.5em;
+  border:none;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #FFF;
+  background: #00bcd4;
+  transition: .4s;
+}
+.next-btn-container {
+  margin-top:10px;
+  width: 500px;
+  padding: 10px;
+  padding-left:200px;
+}
+.square-btn:hover {
+  background: #1ec7bb;
+}
+.example_c {
+  color: #494949 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 10px;
+  border: 2px solid #494949 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  margin-left:10px;
+  margin-top:10px;
+  }
+
+.example_c:hover {
+  color: #ffffff !important;
+  background: #75da93;
+  border-color: #75da93 !important;
+  transition: all 0.4s ease 0s;
+  }
+
+  .example_d {
+    color:#494949 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #01db43;
+    padding: 10px;
+    border: 2px solid #494949 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    margin-left:10px;
+    margin-top:10px;
+    }
+
+  .example_d:hover{
+    border-color:#ffffff !important;
+  }
